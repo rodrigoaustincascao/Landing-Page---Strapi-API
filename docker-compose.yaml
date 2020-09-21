@@ -23,5 +23,6 @@ services:
       POSTGRES_PASSWORD: strapi
     volumes:
       - ./data:/data/postgres
+      - ./app/dump:/home
     ports:
       - '5432:5432'
