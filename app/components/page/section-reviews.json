@@ -13,7 +13,7 @@
     "reviews": {
       "type": "component",
       "repeatable": true,
-      "component": "page.reviewa",
+      "component": "page.reviews",
       "min": 4,
       "required": true
     }
